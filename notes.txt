@@ -1,0 +1,12 @@
+* How Do I Open a Terminal Window in a Folder?
+    - Open the folder you wish to open the command prompt window from.
+    - Type cmd into the location bar at the top of the window and tap enter.
+    - The command prompt will now be opened in the desired location.
+
+** Run this command "npx create-react-app netflix-gpt" in the desktop folder using command prompt(terminal).
+
+** tailwind css
+  go to website -> docs -> Framework Guides -> Create React App
+
+
+
