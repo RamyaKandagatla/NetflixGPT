@@ -1,3 +1,8 @@
+* we will be going to use the chat gpt api's to search the movies.
+
+* creating the project using npx create-react-app <yourprojectname>
+*npx create react app uses webpack behind scenes,webpack is also a bundler.
+
 * How Do I Open a Terminal Window in a Folder?
     - Open the folder you wish to open the command prompt window from.
     - Type cmd into the location bar at the top of the window and tap enter.
@@ -8,5 +13,10 @@
 ** tailwind css
   go to website -> docs -> Framework Guides -> Create React App
 
+** rafce(react arrow function export component) - will automatically creates component for you in vscode.
 
+* create components , routing (npm i -D react-router-dom)
 
+* creating form means you have to validations, for the fields in the form.
+*if you have many fields in the form, suggestion you can use formik library.
+* sign in and signup toggle is created in same component(Login).
