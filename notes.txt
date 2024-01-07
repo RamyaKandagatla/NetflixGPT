@@ -20,3 +20,33 @@
 * creating form means you have to validations, for the fields in the form.
 *if you have many fields in the form, suggestion you can use formik library.
 * sign in and signup toggle is created in same component(Login).
+
+** useRef hook : is a react hook that lets you reference a value that's not needed for rendering.
+
+*Regex ? in this project using for email validation.
+
+*using firebase for authentication
+
+-- create new project 
+-- go into the project and click the web ,ios and android is not required as we are developing website.
+-- Also set up Firebase Hosting for this app.
+-- enable authentication. get started -> sign-in method -> choose the signin provider from the given options
+    - in this project using Email/Password (facing problem while enable and save use the incognito window)
+-- choose this in firebase init and click on space bar and enter :  Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+-- if using create-react-app make as build: 
+  -  What do you want to use as your public directory? build
+
+-- Read the firebase documentation, in that authentication read that.
+
+- npm i -D @reduxjs/toolkit
+-npm i react-redux
+- in utils create appStore.js
+- lets create appstore,there is something known as configurestore, this configurestore comes from reduxjs/toolkit.
+- configurestore takes as configuration , this configuration will have a reducer, and this reducer will have diff reducers from diff slices.
+
+- creating a slice
+- how do we create a slice: 
+    const slicename = createSlice
+- createSlice comes from reduxjs toolkit, in the create slice, we have information like name, initialState and reducers, in reducers we have diff types of reducer functions.
+
+- Firebasegives us an amazing api, that is "onAuthStateChanged", this api is called whenever the user signin, signup, signout, whenever there is an authentication state change. This is kind of like an event listener.
